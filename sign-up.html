@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="style/sign-up.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap-grid.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="#" class="sign-up">Sign up</a>
+            <a href="home.html" class="logo">Logo</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+            <nav class="navbar">
+                <a href="home.html" style="--i:0">Home</a>
+                <a href="category.html" style="--i:2">Category</a>
+                <a href="contact.html" style="--i:3">Contact</a>
+                <a href="sign-up.html" class="sign-in-up">Sign up</a>
+            </nav>
+        </div>
+        <span class="header__img">Тут должен быть что-то а что именно надо <br> придумать или слайдер или просто
+            фото</span>
+    </header>
+
+    <main class="main-form">
+        <section class="forms-section">
+            <h1 class="section-title">Login / Sign up</h1>
+            <div class="forms">
+                <div class="form-wrapper is-active">
+                    <button type="button" class="switcher switcher-login">
+                        Login
+                        <span class="underline"></span>
+                    </button>
+                    <form class="form form-login">
+                        <fieldset>
+                            <legend>Please, enter your email and password for login.</legend>
+                            <div class="input-block">
+                                <label for="login-email">E-mail</label>
+                                <input id="login-email" type="email" required>
+                            </div>
+                            <div class="input-block">
+                                <label for="login-password">Password</label>
+                                <input id="login-password" type="password" required>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn-login">Login</button>
+                    </form>
+                </div>
+                <div class="form-wrapper">
+                    <button type="button" class="switcher switcher-signup">
+                        Sign Up
+                        <span class="underline"></span>
+                    </button>
+                    <form class="form form-signup">
+                        <fieldset>
+                            <legend>Please, enter your email, password and password confirmation for sign up.</legend>
+                            <div class="input-block">
+                                <label for="signup-email">E-mail</label>
+                                <input id="signup-email" type="email" required>
+                            </div>
+                            <div class="input-block">
+                                <label for="signup-password">Password</label>
+                                <input id="signup-password" type="password" required>
+                            </div>
+                            <div class="input-block">
+                                <label for="signup-password-confirm">Confirm password</label>
+                                <input id="signup-password-confirm" type="password" required>
+                            </div>
+                        </fieldset>
+                        <button type="submit" class="btn-signup">Continue</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="footer">
+            <div class="container mt-5">
+                <div class="row pb-5 g-5">
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 ">
+                        <a href="home.html" class="footer__logo">Logo</a>
+                    </div>
+                    <div
+                        class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex justify-content-start  justify-content-start">
+                        <div class="footer__info">
+                            <p>Seyfeler</p>
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Category</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex justify-content-start">
+                        <div class="footer__info">
+                            <p>MAĞAZA HAQQINDA MƏLUMAT</p>
+                            <ul>
+                                <li><span>Iş vaxtı Bazar ertəsi-Şənbə 10:00 - 18:00</span></li>
+                                <li><span>Bizə zəng edin: +994(55)-702-52-91</span></li>
+                                <li><span>Whatsapp: +99455 555 64 04</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 d-flex flex-column justify-content-lg-start flex-sm-wrap justify-content-start">
+                        <div class="footer__location">
+                            <span>Xırdalan şəhəri, H.Aliyev pr. 1728D. AAAF parkın girişi ilə üzbəüz</span>
+                        </div>
+                        <div class="social__media  mt-4">
+                            <a href="#"><img src="img/icons/facebook-circle-logo-24.png" alt=""></a>
+                            <a href="#"><img src="img/icons/instagram-logo-24.png" alt=""></a>
+                            <a href="#"><img src="img/icons/twitter-logo-24.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="JS/form.js"></script>
+</body>
+
+</html>
